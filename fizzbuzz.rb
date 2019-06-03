@@ -2,6 +2,8 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   if int % 3 == 0
-    put "Fizz"
-  end  
+    puts "Fizz"
+  end
+  elsif it % 5 == 0
+    puts "Buzz"
 end
